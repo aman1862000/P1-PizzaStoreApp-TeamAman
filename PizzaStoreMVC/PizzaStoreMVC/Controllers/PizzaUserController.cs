@@ -28,11 +28,7 @@ namespace PizzaStoreMVC.Controllers
         public ActionResult GetUserById(int id)
         {
             var data = userRepo.GetUserById(id);
-            if (data != null) 
-            {
-                return View("GetAllUser",data);
-            }
-            return null;
+            return View(Models.Mapper.Map(data));
         }
         public string DeleteUserById(int id)
         {
