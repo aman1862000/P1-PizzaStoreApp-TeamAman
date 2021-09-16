@@ -36,5 +36,24 @@ namespace PizzaRepository.Classes
                 return null;
             }
         }
+        public string DeleteUserById(int id)
+        {
+            var logindata = db.Logins.Where(s=>s.user_id==id).FirstOrDefault();
+            db.Logins.Remove(logindata);
+            Save();
+            var user = db.Users.Find(id);
+            if (user != null)
+            {
+                db.Users.Remove(user);
+                Save();
+                return "Successfully deleted";
+            }
+            else
+                return "User does not exist!!";
+        }
+        public void Save()
+        {
+            db.SaveChanges();
+        }
     }
 }

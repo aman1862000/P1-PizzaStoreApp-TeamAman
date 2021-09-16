@@ -9,3 +9,4 @@ E:\P1-PizzaStore-TeamAman\P1-PizzaStoreApp-TeamAman\PizzaStoreMVC\PizzaDbData\ob
 E:\P1-PizzaStore-TeamAman\P1-PizzaStoreApp-TeamAman\PizzaStoreMVC\PizzaDbData\obj\Debug\PizzaDbData.csproj.CopyComplete
 E:\P1-PizzaStore-TeamAman\P1-PizzaStoreApp-TeamAman\PizzaStoreMVC\PizzaDbData\obj\Debug\PizzaDbData.dll
 E:\P1-PizzaStore-TeamAman\P1-PizzaStoreApp-TeamAman\PizzaStoreMVC\PizzaDbData\obj\Debug\PizzaDbData.pdb
+E:\P1-PizzaStore-TeamAman\P1-PizzaStoreApp-TeamAman\PizzaStoreMVC\PizzaDbData\obj\Debug\PizzaDbData.csproj.AssemblyReference.cache

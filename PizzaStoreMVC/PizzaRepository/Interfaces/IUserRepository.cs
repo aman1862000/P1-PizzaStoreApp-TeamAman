@@ -11,7 +11,6 @@ namespace PizzaRepository.Interfaces
     {
         IEnumerable<User> GetAllUser();
         User GetUserById(int id);
-        void AddNewUser(User objuser);
-
+        void AddNewUser(User objUser);
     }
 }
