@@ -1,4 +1,6 @@
 packages
+bin/debug
+obj/debug
 # Created by https://www.toptal.com/developers/gitignore/api/csharp,visualstudiocode,dotnetcore,visualstudio
 # Edit at https://www.toptal.com/developers/gitignore?templates=csharp,visualstudiocode,dotnetcore,visualstudio
 
